@@ -1,0 +1,1 @@
+from .trisource_H1stage_R2stage_detector import TriSourceDetector

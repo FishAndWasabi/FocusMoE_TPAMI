@@ -1,0 +1,15 @@
+# Python 3.8; install CUDA PyTorch first, using the README commands.
+# Keep this OpenMMLab 1.x/2.x stack: newer major versions change its APIs.
+--find-links https://download.openmmlab.com/mmcv/dist/cu117/torch1.13/index.html
+mmcv-full==1.7.0
+mmdet==2.28.2
+mmengine==0.10.7
+timm==1.0.20
+numpy==1.24.4
+opencv-python==4.12.0.88
+scipy==1.10.1
+einops==0.8.1
+pycocotools==2.0.7
+terminaltables==3.1.10
+matplotlib==3.7.5
+yapf==0.40.1

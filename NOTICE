@@ -1,0 +1,10 @@
+This package contains the inference implementations used by Table 3 of the
+FocusMoE paper: SM3Det, FocusMoE, Multi-Branch and Multi-Stage, with a reduced,
+modified MMRotate runtime. MMRotate, MMCV and MMDetection are OpenMMLab projects.
+The bundled LICENSE retains the Apache License 2.0 text from the original
+runtime. Existing source copyright notices are preserved. External dependencies
+and checkpoints retain their respective licenses.
+
+The runtime provides the tri-source detector, matching expert-routing modules
+and modality-specific preprocessing. Sixteen self-contained inference configs
+load final detector checkpoints. Export preserves all model tensor values.
